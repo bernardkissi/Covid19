@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-// Route::get('/', 'DataSource\APIController@get')->name('regions.get');
+Route::get('/', function() {
+	return 'This is covid data server';
+});
 // Route::get('/stats', 'DataSource\APIController@getStats')->name('regions.get.stats');
 // Route::get('/getstats', 'DataSource\APIController@getStats')->name('regions.get.stats');
