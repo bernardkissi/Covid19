@@ -40,7 +40,7 @@ return [
                     'encrypted' => true,
                     'host' => ('PUSHER_APP_HOST'),
                     'port' => env('PUSHER_APP_PORT'),
-                    'scheme' => 'https',
+                    'scheme' => 'http',
                 ],
         ],
 
