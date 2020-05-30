@@ -41,10 +41,10 @@ return [
                     'host' => ('PUSHER_APP_HOST'),
                     'port' => env('PUSHER_APP_PORT'),
                     'scheme' => 'http',
-                    'curl_options' => [
-                        CURLOPT_SSL_VERIFYHOST => 0,
-                        CURLOPT_SSL_VERIFYPEER => 0,
-                    ]
+                    // 'curl_options' => [
+                    //     CURLOPT_SSL_VERIFYHOST => 0,
+                    //     CURLOPT_SSL_VERIFYPEER => 0,
+                    // ]
                 ],
         ],
 
